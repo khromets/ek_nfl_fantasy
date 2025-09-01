@@ -1,0 +1,116 @@
+{
+  "nfl_com": {
+    "passing": {
+      "status": "accessible",
+      "status_code": 200,
+      "tables_found": 1,
+      "data_elements": 1,
+      "page_title": "NFL 2025 Player Stats | passing Stats | NFL.com",
+      "player_links": 25
+    },
+    "rushing": {
+      "status": "accessible",
+      "status_code": 200,
+      "tables_found": 1,
+      "data_elements": 1,
+      "page_title": "2024 NFL rushing stats - Players | NFL.com",
+      "player_links": 25
+    },
+    "receiving": {
+      "status": "accessible",
+      "status_code": 200,
+      "tables_found": 1,
+      "data_elements": 1,
+      "page_title": "2024 NFL receiving stats - Players | NFL.com",
+      "player_links": 25
+    }
+  },
+  "pro_football_reference": {
+    "season_rushing": {
+      "status": "accessible",
+      "status_code": 200,
+      "stats_tables": 2,
+      "all_tables": 2,
+      "page_title": "2024 NFL Rushing | Pro-Football-Reference.com",
+      "player_links": 797,
+      "sample_headers": [
+        "",
+        "Rushing",
+        "",
+        "",
+        "Rk",
+        "Player",
+        "Age",
+        "Team",
+        "Pos",
+        "G"
+      ]
+    },
+    "season_passing": {
+      "status": "accessible",
+      "status_code": 200,
+      "stats_tables": 2,
+      "all_tables": 2,
+      "page_title": "2024 NFL Passing | Pro-Football-Reference.com",
+      "player_links": 163,
+      "sample_headers": [
+        "Rk",
+        "Player",
+        "Age",
+        "Team",
+        "Pos",
+        "G",
+        "GS",
+        "QBrec",
+        "Cmp",
+        "Att"
+      ]
+    },
+    "sample_game_log": {
+      "status": "accessible",
+      "status_code": 200,
+      "stats_tables": 1,
+      "all_tables": 1,
+      "page_title": "Michael Penix 2024 Game Log | Pro-Football-Reference.com",
+      "player_links": 92,
+      "sample_headers": [
+        "",
+        "Passing",
+        "Rushing",
+        "Fumbles",
+        "Snap Counts",
+        "Rk",
+        "Gcar",
+        "Gtm",
+        "Week",
+        "Date"
+      ]
+    }
+  },
+  "espn": {
+    "rushing": {
+      "status": "accessible",
+      "status_code": 200,
+      "all_tables": 2,
+      "stats_tables": 0,
+      "page_title": "NFL Conference Rushing Stat Leaders, 2024 Regular Season - ESPN",
+      "player_elements": 68
+    },
+    "passing": {
+      "status": "accessible",
+      "status_code": 200,
+      "all_tables": 2,
+      "stats_tables": 0,
+      "page_title": "NFL Conference Passing Stat Leaders, 2024 Regular Season - ESPN",
+      "player_elements": 71
+    },
+    "receiving": {
+      "status": "accessible",
+      "status_code": 200,
+      "all_tables": 2,
+      "stats_tables": 0,
+      "page_title": "NFL Conference Receiving Stat Leaders, 2024 Regular Season - ESPN",
+      "player_elements": 70
+    }
+  }
+}
